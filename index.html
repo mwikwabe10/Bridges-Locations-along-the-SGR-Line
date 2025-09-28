@@ -20,6 +20,33 @@
         }
         </style>
         <title></title>
+
+<style>
+@media (max-width: 768px) {
+  .leaflet-control-layers {
+    font-size: 14px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  .leaflet-control-layers-expanded {
+    max-width: 80vw;
+  }
+  .leaflet-control-layers-list {
+    max-height: 160px;
+    overflow-y: auto;
+  }
+  .leaflet-control-layers-toggle {
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 30px 30px !important;
+  }
+}
+</style>
+
+
+
+		
     </head>
     <body>
         <div id="map">
